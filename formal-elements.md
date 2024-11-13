@@ -75,19 +75,25 @@ The nostalgic game now on your desktop - why play outside when you can play from
 ## סקר שוק
 
 1. Among Us
+
 ![image](https://github.com/user-attachments/assets/61a1670f-f5d4-413e-8ec7-d82368399163)
 
 https://youtu.be/0YKjFoGxbec?si=nrNVaQ0r_kvt4s-t
 
+
 2. Tag
+
 ![image](https://github.com/user-attachments/assets/6c6539d6-1a85-4061-bcae-9e46d98df7d7)
 
 https://youtu.be/Um0IEa3fZ1c?si=HIYyKscVUJOxfe1S
 
+
 3. Gang Beasts
+
 ![image](https://github.com/user-attachments/assets/ce6c612e-008f-4df9-99c9-5c48ff9bbb93)
 
 https://youtu.be/Vz0BriND6pE?si=hXLAQHGggX3ay9ce
+
 
 שלושת המשחקים דומים ברעיונם למשחק שלנו tך מטרתם היא הכשלת השחקנים האחרים בעזרת משימות צדדיות או שימוש באביזרים חיצוניים. על מנת שהמשחק שלנו יתבלט ויהיה ייחודי אנחנו נשים את הדגש על רכיב המשאבים ופרטי הצבעים בפרט, שיבדילו את המשחק בכך שעל ידי שימוש בצבעים ושינוי הצבע בכל פעם יגרום לשחקנים לחשוב על אסטרטגיות מיקום בהתאם לסקלה רחבה יותר של צבעים ויהפוך את המשחק לתחרותי ומהנה.
 
