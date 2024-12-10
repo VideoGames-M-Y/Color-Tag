@@ -8,11 +8,13 @@ public class Catcher : MonoBehaviour
 
     private Transform player;
 
-    private void Start(){
+    private void Start()
+    {
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    private void Update(){
+    private void Update()
+    {
         if (player != null)
         {
             Vector3 direction = (player.position - transform.position).normalized;
@@ -20,8 +22,10 @@ public class Catcher : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other){
-        if (other.CompareTag("Player")){
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
             Debug.Log("Player caught! Game over!");
             SceneManager.LoadScene(gameOverSceneName);
         }
