@@ -8,11 +8,6 @@ public class TargetColorManager : MonoBehaviour
     [SerializeField] TMP_Text ColorText;
 
     public static string targetColor;
-    // [SerializeField] [Tooltip("Name of the scene to move to when starting the game")] string Yellow;
-    // [SerializeField] [Tooltip("Name of the scene to move to when starting the game")] string Red;
-    // [SerializeField] [Tooltip("Name of the scene to move to when starting the game")] string Blue;
-    // [SerializeField] [Tooltip("Name of the scene to move to when starting the game")] string Green;
-    // [SerializeField] [Tooltip("Time (in seconds) to wait before starting the game")] float delayBeforeStart = 2f;
 
     void Start()
     {
@@ -33,19 +28,15 @@ public class TargetColorManager : MonoBehaviour
             {
             case "Red":
                 ColorText.color = Color.red;
-                // SceneManager.LoadScene(Red);
                 break;
             case "Blue":
                 ColorText.color = Color.blue;
-                // SceneManager.LoadScene(Blue);
                 break;
             case "Green":
                 ColorText.color = Color.green;
-                // SceneManager.LoadScene(Green);
                 break;
             case "Yellow":
                 ColorText.color = Color.yellow;
-                // SceneManager.LoadScene(Yellow);
                 break;
             default:
                 ColorText.color = Color.white; 
@@ -53,10 +44,4 @@ public class TargetColorManager : MonoBehaviour
             }
         }
     }
-
-    // private IEnumerator StartGame()
-    // {
-    //     yield return new WaitForSeconds(delayBeforeStart);
-    //     SceneManager.LoadScene(sceneName);
-    // }
 }
