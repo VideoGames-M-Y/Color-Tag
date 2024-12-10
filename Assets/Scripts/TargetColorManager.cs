@@ -19,15 +19,18 @@ public class TargetColorManager : MonoBehaviour
         SetRandomTargetColor();
     }
 
-   public void SetRandomTargetColor(){
+   public void SetRandomTargetColor()
+   {
         string[] colors = { "Red", "Blue", "Green", "Yellow" };
         targetColor = colors[Random.Range(0, colors.Length)];
         Debug.Log("Target Color: " + targetColor);
 
-        if (ColorText != null){
+        if (ColorText != null)
+        {
             ColorText.text = "Target Color: " + targetColor;
 
-            switch (targetColor){
+            switch (targetColor)
+            {
             case "Red":
                 ColorText.color = Color.red;
                 // SceneManager.LoadScene(Red);
