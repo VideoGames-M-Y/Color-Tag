@@ -1,46 +1,31 @@
 using UnityEngine;
-using TMPro;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
-public class TargetColorManager : MonoBehaviour
+public class Catcher : MonoBehaviour
 {
-    [SerializeField] TMP_Text ColorText;
+    [SerializeField]
+    private float moveSpeed = 5f;
 
-    public static string targetColor;
+    [SerializeField]
+    private string gameOverSceneName = "GameOver";
 
-    void Start()
+    private Transform player;
+
+    private void Start()
     {
-        SetRandomTargetColor();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-   public void SetRandomTargetColor()
-   {
-        string[] colors = { "Red", "Blue", "Green", "Yellow" };
-        targetColor = colors[Random.Range(0, colors.Length)];
-        Debug.Log("Target Color: " + targetColor);
-
-        if (ColorText != null)
+    private void Update()
+    {
+        if (player != null)
         {
-            ColorText.text = "Target Color: " + targetColor;
+            Vector3 direction = (player.position - transform.position).normalized;
+            transform.position += direction * moveSpeed * Time.deltaTime;
 
-            switch (targetColor)
+            if (Vector3.Distance(transform.position, player.position) < 1f)
             {
-            case "Red":
-                ColorText.color = Color.red;
-                break;
-            case "Blue":
-                ColorText.color = Color.blue;
-                break;
-            case "Green":
-                ColorText.color = Color.green;
-                break;
-            case "Yellow":
-                ColorText.color = Color.yellow;
-                break;
-            default:
-                ColorText.color = Color.white; 
-                break;
+                SceneManager.LoadScene(gameOverSceneName);
             }
         }
     }
