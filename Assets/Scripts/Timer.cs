@@ -9,28 +9,35 @@ public class Timer : MonoBehaviour
     private float timeRemaining;
     [SerializeField] [Tooltip("Game over")] string sceneName;
 
-    public void Start(){
+    public void Start()
+    {
         timeRemaining = roundTime;
     }
 
-    void Update(){
-        if (timeRemaining > 0){
+    void Update()
+    {
+        if (timeRemaining > 0)
+        {
             timeRemaining -= Time.deltaTime;
             UpdateTimerDisplay();
         }
-        else{
+        else
+        {
             EndGame(false);
         }
     }
 
-    private void UpdateTimerDisplay(){
-        if (TimeText != null){
+    private void UpdateTimerDisplay()
+    {
+        if (TimeText != null)
+        {
             // Round time to the nearest whole number and display it
             TimeText.text = "Time: " + Mathf.RoundToInt(timeRemaining);
         }
     }
 
-    void EndGame(bool won){
+    void EndGame(bool won)
+    {
         if (won)
             Debug.Log("You won!");
         else
