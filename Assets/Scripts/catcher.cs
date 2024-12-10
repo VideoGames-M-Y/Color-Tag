@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class Catcher : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private string gameOverSceneName = "GameOver"; 
+    [SerializeField] private string gameOverSceneName = "GameOver";
 
     private Transform player;
 
