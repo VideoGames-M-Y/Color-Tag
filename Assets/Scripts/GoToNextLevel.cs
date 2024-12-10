@@ -9,11 +9,13 @@ public class GoToNextLevel : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Expected target color: " + TargetColorManager.targetColor);
-        if (other.CompareTag(TargetColorManager.targetColor)) {
+        if (other.CompareTag(TargetColorManager.targetColor))
+        {
             Debug.Log("Correct color! Moving to the next level.");
             SceneManager.LoadScene(nextSceneName);
         }
-        else{
+        else
+        {
             Debug.Log("Wrong color! Game over.");
             SceneManager.LoadScene(gameOverSceneName); 
         }
