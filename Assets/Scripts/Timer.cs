@@ -5,16 +5,19 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     public float roundTime = 30f;
-    [SerializeField] TMP_Text TimeText; 
+    [SerializeField] private TMP_Text TimeText;
     private float timeRemaining;
-    [SerializeField] [Tooltip("Game over")] string sceneName;
+
+    [SerializeField]
+    [Tooltip("Game over")]
+    private string sceneName;
 
     public void Start()
     {
         timeRemaining = roundTime;
     }
 
-    void Update()
+    private void Update()
     {
         if (timeRemaining > 0)
         {
@@ -31,16 +34,19 @@ public class Timer : MonoBehaviour
     {
         if (TimeText != null)
         {
-            // Round time to the nearest whole number and display it
             TimeText.text = "Time: " + Mathf.RoundToInt(timeRemaining);
         }
     }
 
-    void EndGame(bool won)
+    private void EndGame(bool won)
     {
         if (won)
+        {
             Debug.Log("You won!");
+        }
         else
+        {
             SceneManager.LoadScene(sceneName);
+        }
     }
 }
