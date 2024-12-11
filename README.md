@@ -1,16 +1,21 @@
 # Color-Tag
 ![image](https://github.com/user-attachments/assets/cb34a441-bcc1-4885-bbaf-c883ac0ec0ab)
 
-משחק הילדים המוכר והאהוב- עכשיו בגסת מחשב
+The familiar and beloved children's game - now in computer form
 
-משחק שבו יש תופס ושאר המשתתפים הם הנרדפים, השחקן יכול להצטרף למשחק כתופס או כנרדף.
+A game in which there is a catcher and the other participants are the chased, the player can join the game as a catcher or as the chased.
 
-התופס מכריז על צבע וכל שאר המשתתפים צריכים לרוץ ולגעת המשהו שבאותו הצבע כדי שהם יכולים להיות בטוחים מהתופס. כשהכולם מתחילים לרוץ ולחפש את הצבע המבוקש, התופס מנסה לתפוס משתתף שעדיין לא נוגע בצבע.
+The catcher announces a color and all the other participants have to run and touch something of the same color so that they can be safe from the catcher. When everyone starts running and looking for the desired color, the catcher tries to catch a participant who has not yet touched the color.
 
-כל שלב במשחק זה ממוקם במקום שונה כך שבכל שלב עולה רמת הקושי. לדוגמה באחד השלבים הראשונים המשחק יהיה במיקום קלאסי כמו פארק אך ככל שהמתקדמים עם השלבים המשחק יהיה במיקומים יותר קשים למציאת הצבע כמו יער קסום.
+Each stage of this game is located in a different place so that the level of difficulty increases with each stage. For example, in one of the first stages the game will be in a classic location like a park but as you progress with the stages the game will be in more difficult locations to find the color like an enchanted forest.
 
-משחק זה מאפשר לשחקן לחוות ולהנות מהמשחק ילדות הקלאסית כאשר הוא צריך לברוח ולשים לב לצבעים בו זמנית. בנוסף, מיקום המשחק ישתנה עם שלבים כך שהשחקן יכול לחוות את עולם הדמיון כשאר הוא משחק במיקום כמו היער הקסום או ארמון הקרח.
+This game allows the player to experience and enjoy the classic childhood game when he has to escape and pay attention to the colors at the same time. In addition, the location of the game will change with stages so that the player can experience the world of imagination as he plays in a location like the enchanted forest or the ice palace.
 
+# HOW TO PLAY:
+
+Use the keyboad keys to control the white capsule and avoid getting capture by the white hexagon.
+
+---
 מטלה 4:
 https://matanyocheved.itch.io/ex4-color-tag
 
